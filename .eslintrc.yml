@@ -18,3 +18,9 @@ rules:
   space-before-blocks:
     - warn
     - functions: always
+  vue/require-prop-types: 0
+  vue/require-default-prop: 0
+  no-unused-vars: off
+globals:
+  __dirname: true
+

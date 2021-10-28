@@ -12,7 +12,7 @@ You can use classes of tailwindcss in your markdown.
 
 ### result
 
-<div class="mx-2 text-red-700">red text!</div>
+<div class="mx-2 text-red-700 text-5xl">red text!</div>
 
 ## In components
 
@@ -26,17 +26,13 @@ Definition:
 <!-- .vuepress/components/RedText.vue -->
 
 <template>
-  <div class="mx-2 text-red-700">
-    {{ text }}
-  </div>
+  <div class="mx-2 text-red-700">{{ text }}</div>
 </template>
 
-<script>
-export default {
-  props: {
-    text: { type: String, required: true }
-  }
-}
+<script setup>
+const props = defineProps({
+  text: String,
+})
 </script>
 ```
 

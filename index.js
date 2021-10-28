@@ -1,8 +1,13 @@
 module.exports = (options = {}, ctx) => {
   const { name } = require("./package");
-  const { cwd, siteConfig, sourceDir, vuepressDir } = ctx;
+  const { options: voptions } = ctx;
   const { tailwindConfig, ...others } = options;
-  const { logger } = require("@vuepress/shared-utils");
+  const { logger } = require("@vuepress/utils");
+  const path = require("path");
+  const process = require("process");
+  const cwd = process.cwd();
+  const sourceDir = voptions.source;
+  const vuepressDir = path.resolve(voptions.source, ".vuepress");
 
   const defaultTailwindConfig = () => {
     try {
@@ -21,7 +26,10 @@ module.exports = (options = {}, ctx) => {
     require("tailwindcss")(tailwindConfig || defaultTailwindConfig()),
     require("autoprefixer"),
   ];
-  siteConfig.postcss = Object.assign(siteConfig.postcss || {}, { plugins });
+
+  voptions.bundlerConfig = Object.assign(voptions.bundlerConfig || {}, {
+    postcss: { postcssOptions: { plugins } },
+  });
 
   logger.tip(`[${name}] tailwindcss is enabled`);
   return { name };
