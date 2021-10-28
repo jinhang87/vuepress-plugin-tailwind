@@ -35,7 +35,8 @@
     "postinstall": "husky install",
     "postpublish": "pinst --enable",
     "prepublishOnly": "pinst --disable",
-    "test": "sh scripts/test.sh"
+    "test": "sh scripts/test.sh",
+    "deploy": "sh scripts/deploy.sh"
   },
   "lint-staged": {
     "*.{js,vue}": "eslint",
