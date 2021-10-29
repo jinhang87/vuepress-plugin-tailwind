@@ -8,7 +8,7 @@
 [![Codacy grade](https://img.shields.io/codacy/grade/bcad32bd9cb441f49a47cdac66d7a232?logo=codacy&style=for-the-badge)](https://www.codacy.com/gh/jinhang87/vuepress-plugin-tailwind/dashboard?utm_source=github.com&utm_medium=referral&utm_content=jinhang87/vuepress-plugin-tailwind&utm_campaign=Badge_Grade)
 [![LICENSE](https://img.shields.io/github/license/jinhang87/vuepress-plugin-tailwind?style=for-the-badge)](https://github.com/jinhang87/vuepress-plugin-tailwind/blob/master/LICENSE)
 
-A VuePress plugin to use [`tailwindcss`](https://github.com/tailwindcss/tailwindcss) easily.
+A VuePress(2.x) plugin to use [`tailwindcss`](https://github.com/tailwindcss/tailwindcss) easily.
 
 With this plugin, you can use any classes defined by Tailwind CSS, and the unused classes are automatically purged (production only).
 
@@ -22,7 +22,7 @@ This plugin is based on [the official guide of Tailwind CSS](https://tailwindcss
 yarn add @jinhang/vuepress-plugin-tailwind
 ```
 
-2.  Add `@tailwind` import statements to the beginning of `.vuepress/styles/index.styl` :
+2.  Add `@tailwind` import statements to the beginning of `.vuepress/styles/index.sass` :
 
 ```styl
 @tailwind base;
