@@ -1,5 +1,5 @@
 {
-  "name": "@kawarimidoll/vuepress-plugin-tailwind",
+  "name": "@jinhang/vuepress-plugin-tailwind",
   "description": "A VuePress plugin to use tailwindcss easily",
   "version": "3.0.0",
   "main": "index.js",
@@ -12,15 +12,15 @@
     "css"
   ],
   "author": {
-    "name": "kawarimidoll",
-    "email": "kawarimidoll+git@gmail.com",
-    "url": "https://github.com/kawarimidoll"
+    "name": "jinhang",
+    "email": "jinhang87@163.com",
+    "url": "https://github.com/jinhang87"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kawarimidoll/vuepress-plugin-tailwind.git"
+    "url": "https://github.com/jinhang87/vuepress-plugin-tailwind.git"
   },
-  "bugs": "https://github.com/kawarimidoll/vuepress-plugin-tailwind/issues",
+  "bugs": "https://github.com/jinhang87/vuepress-plugin-tailwind/issues",
   "files": [
     "index.js",
     "README.md"

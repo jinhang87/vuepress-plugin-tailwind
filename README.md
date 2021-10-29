@@ -1,4 +1,4 @@
-# @kawarimidoll/vuepress-plugin-tailwind
+# @jinhang/vuepress-plugin-tailwind
 
 [![GitHub package.json version](https://img.shields.io/github/package-json/v/kawarimidoll/vuepress-plugin-tailwind?logo=github&style=for-the-badge)](https://github.com/kawarimidoll/vuepress-plugin-tailwind/blob/master/package.json)
 [![npm downloads](https://img.shields.io/npm/dt/@kawarimidoll/vuepress-plugin-tailwind?logo=npm&style=for-the-badge)](https://www.npmjs.com/package/@kawarimidoll/vuepress-plugin-tailwind)
@@ -19,7 +19,7 @@ This plugin is based on [the official guide of Tailwind CSS](https://tailwindcss
 1.  Install this plugin :
 
 ```sh
-yarn add @kawarimidoll/vuepress-plugin-tailwind
+yarn add @jinhang/vuepress-plugin-tailwind
 ```
 
 2.  Add `@tailwind` import statements to the beginning of `.vuepress/styles/index.styl` :
@@ -36,9 +36,7 @@ yarn add @kawarimidoll/vuepress-plugin-tailwind
 
 ```js
 module.exports = {
-  plugins: [
-    "@kawarimidoll/tailwind",
-  ],
+  plugins: ["@jinhang/tailwind"],
 };
 ```
 
@@ -47,7 +45,7 @@ _These configuration files are not created automatically. You have to create the
 
 ## Options
 
-See [docs](https://vuepress-plugin-tailwind.netlify.app).
+See [docs](https://jinhang87.github.io/vuepress-plugin-tailwind).
 
 ## Versioning policy
 
@@ -57,4 +55,4 @@ For example, when there is a major version upgrade of Tailwind, this plugin also
 
 ## License
 
-[MIT](https://github.com/kawarimidoll/vuepress-plugin-tailwind/blob/master/LICENSE)
+[MIT](https://github.com/jinhang87/vuepress-plugin-tailwind/blob/master/LICENSE)

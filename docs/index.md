@@ -1,4 +1,4 @@
-# @kawarimidoll/vuepress-plugin-tailwind
+# @jinhang/vuepress-plugin-tailwind
 
 A VuePress plugin to use [`tailwindcss`](https://github.com/tailwindcss/tailwindcss) easily.
 
@@ -11,10 +11,10 @@ This plugin is based on [the official guide of Tailwind CSS](https://tailwindcss
 1. Install this plugin :
 
 ```sh
-yarn add @kawarimidoll/vuepress-plugin-tailwind
+yarn add @jinhang/vuepress-plugin-tailwind
 ```
 
-2. Add `@tailwind` import statements to the beginning of `.vuepress/styles/index.styl` :
+2. Add `@tailwind` import statements to the beginning of `.vuepress/styles/index.scss` :
 
 ```styl
 @tailwind base;
@@ -28,9 +28,7 @@ yarn add @kawarimidoll/vuepress-plugin-tailwind
 
 ```js
 module.exports = {
-  plugins: [
-    "@kawarimidoll/tailwind",
-  ],
+  plugins: ["@jinhang/tailwind"],
 };
 ```
 
@@ -48,9 +46,7 @@ This is the configuration object or path to the configuration file. Use like thi
 ```js
 // .vuepress/config.js
 module.exports = {
-  plugins: [
-    ["@kawarimidoll/tailwind", { tailwindConfig: "style/config.js" }],
-  ],
+  plugins: [["@jinhang/tailwind", { tailwindConfig: "style/config.js" }]],
 };
 ```
 
@@ -92,7 +88,7 @@ For example, when you use `corePlugins` and `important` like this:
 module.exports = {
   plugins: [
     [
-      "@kawarimidoll/tailwind",
+      "@jinhang/tailwind",
       { corePlugins: { preflight: false }, important: true },
     ],
   ],
@@ -130,4 +126,4 @@ For example, when there is a major version upgrade of Tailwind, this plugin also
 
 ## License
 
-[MIT](https://github.com/kawarimidoll/vuepress-plugin-tailwind/blob/master/LICENSE)
+[MIT](https://github.com/jinhang87/vuepress-plugin-tailwind/blob/master/LICENSE)
