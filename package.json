@@ -16,6 +16,7 @@
     "email": "jinhang87@163.com",
     "url": "https://github.com/jinhang87"
   },
+  "homepage": "https://jinhang87.github.io/vuepress-plugin-tailwind",
   "repository": {
     "type": "git",
     "url": "https://github.com/jinhang87/vuepress-plugin-tailwind.git"
