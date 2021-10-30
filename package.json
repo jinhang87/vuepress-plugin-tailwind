@@ -1,7 +1,7 @@
 {
   "name": "@jinhang/vuepress-plugin-tailwind",
   "description": "A VuePress plugin to use tailwindcss easily",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "main": "index.js",
   "keywords": [
     "vuepress",
