@@ -1,0 +1,19 @@
+clone_depth: 5
+
+environment:
+    access_token:
+        secure: # 自己的加密token
+install:
+    - ps: Install-Product node 14 # 默认node版本太老
+    - node --version
+    - yarn --version
+    - yarn
+    
+build_script:
+    - yarn build
+    
+artifacts:
+    - path: docs/.vuepress/dist
+    
+on_success:
+- appveyor AddMessage "Static Site Updated"
