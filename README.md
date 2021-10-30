@@ -2,6 +2,7 @@
 
 [![GitHub package.json version](https://img.shields.io/github/package-json/v/jinhang87/vuepress-plugin-tailwind?logo=github&style=for-the-badge)](https://github.com/jinhang87/vuepress-plugin-tailwind/blob/master/package.json)
 [![npm downloads](https://img.shields.io/npm/dt/@jinhang/vuepress-plugin-tailwind?logo=npm&style=for-the-badge)](https://www.npmjs.com/package/@jinhang/vuepress-plugin-tailwind)
+![build](https://img.shields.io/appveyor/build/jinhang87/vuepress-plugin-tailwind?style=for-the-badge)
 [![Dependencies](https://img.shields.io/david/jinhang87/vuepress-plugin-tailwind?color=blue&logo=dependabot&style=for-the-badge)](https://github.com/jinhang87/vuepress-plugin-tailwind/pulls?q=dependabot)
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/jinhang87/vuepress-plugin-tailwind?logo=javascript&style=for-the-badge)](https://github.com/jinhang87/vuepress-plugin-tailwind/blob/master/index.js)
 [![Netlify](https://img.shields.io/netlify/c3151153-507a-4a8d-921e-890e9906fcdd?color=blue&logo=netlify&style=for-the-badge)](https://jinhang87.github.io/vuepress-plugin-tailwind)
