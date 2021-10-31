@@ -4,7 +4,7 @@ const path = require("path");
 const { en } = require("./configs/navbar/en");
 
 module.exports = {
-  base: "/vuepress-plugin-tailwind/",
+  //base: "/vuepress-plugin-tailwind/",
   title: name,
   description,
   head: [
