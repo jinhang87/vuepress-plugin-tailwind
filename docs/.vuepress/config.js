@@ -8,7 +8,7 @@ module.exports = {
   title: name,
   description,
   head: [
-    ["meta", { name: "baidu-site-verification", content: "code-bw3RYSPAtH" }],
+    ["meta", { name: "baidu-site-verification", content: "code-9R4oVIrwpQ" }],
     [
       "meta",
       {
