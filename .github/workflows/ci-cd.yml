@@ -45,3 +45,4 @@ jobs:
       uses: author/action-publish@stable
       env:
         REGISTRY_TOKEN: ${{ secrets.NPM_TOKEN }}
+
