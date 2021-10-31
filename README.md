@@ -4,10 +4,10 @@
 [![npm downloads](https://img.shields.io/npm/dt/@jinhang/vuepress-plugin-tailwind?logo=npm&style=for-the-badge)](https://www.npmjs.com/package/@jinhang/vuepress-plugin-tailwind)
 ![build](https://img.shields.io/appveyor/build/jinhang87/vuepress-plugin-tailwind?style=for-the-badge)
 [![CI-CD](https://img.shields.io/github/workflow/status/jinhang87/vuepress-plugin-tailwind/CI-CD?style=for-the-badge)](https://github.com/jinhang87/vuepress-plugin-tailwind/actions/workflows/ci-cd.yml)
-[![Compatibility Score](https://img.shields.io/github/workflow/status/jinhang87/vuepress-plugin-tailwind/compatibility-score?logo=github&style=for-the-badge)]()
+[![Compatibility Score](https://img.shields.io/github/workflow/status/jinhang87/vuepress-plugin-tailwind/compatibility-score?logo=github&style=for-the-badge)](https://github.com/jinhang87/vuepress-plugin-tailwind/actions/workflows/compatibility-score.yml)
 [![Dependencies](https://img.shields.io/david/jinhang87/vuepress-plugin-tailwind?color=blue&logo=dependabot&style=for-the-badge)](https://github.com/jinhang87/vuepress-plugin-tailwind/pulls?q=dependabot)
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/jinhang87/vuepress-plugin-tailwind?logo=javascript&style=for-the-badge)](https://github.com/jinhang87/vuepress-plugin-tailwind/blob/master/index.js)
-[![Netlify](https://img.shields.io/netlify/c3151153-507a-4a8d-921e-890e9906fcdd?color=blue&logo=netlify&style=for-the-badge)](https://vuepress-plugin-tailwind.vercel.app/)
+[![Netlify](https://img.shields.io/netlify/c3151153-507a-4a8d-921e-890e9906fcdd?logo=netlify&style=for-the-badge)](https://vuepress-plugin-tailwind.vercel.app/)
 [![Codacy grade](https://img.shields.io/codacy/grade/bcad32bd9cb441f49a47cdac66d7a232?logo=codacy&style=for-the-badge)](https://www.codacy.com/gh/jinhang87/vuepress-plugin-tailwind/dashboard?utm_source=github.com&utm_medium=referral&utm_content=jinhang87/vuepress-plugin-tailwind&utm_campaign=Badge_Grade)
 [![LICENSE](https://img.shields.io/github/license/jinhang87/vuepress-plugin-tailwind?style=for-the-badge)](https://github.com/jinhang87/vuepress-plugin-tailwind/blob/master/LICENSE)
 
