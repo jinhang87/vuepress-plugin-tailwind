@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_jinhang_vuepress_plugin_tailwind=self.webpackChunk_jinhang_vuepress_plugin_tailwind||[]).push([[508],{508:(e,s,t)=>{t.r(s),t.d(s,{default:()=>u});var i=t(252),n=t(577);const p={class:"mx-2 text-red-700"},u={props:{text:String},setup:e=>(s,t)=>((0,i.wg)(),(0,i.iD)("div",p,(0,n.zw)(e.text),1))}}}]);
