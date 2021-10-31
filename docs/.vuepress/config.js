@@ -13,7 +13,7 @@ module.exports = {
       "meta",
       {
         name: "google-site-verification",
-        content: "SNRRjm5PAJyOIBpAG-f6bY1q68oRG0xg94NMgqO6chc",
+        content: "osgk5eh5wgv09Si9L2AP-_mdXtHdlaTLbBa46J4j0cM",
       },
     ],
   ],
