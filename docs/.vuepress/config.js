@@ -36,5 +36,11 @@ module.exports = {
         componentsDir: path.resolve(__dirname, "./components"),
       },
     ],
+    [
+      "@vuepress/plugin-google-analytics",
+      {
+        id: "G-VB8W01RFSM",
+      },
+    ],
   ],
 };

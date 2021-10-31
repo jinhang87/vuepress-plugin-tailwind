@@ -50,6 +50,7 @@
     "access": "public"
   },
   "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^2.0.0-beta.27",
     "@vuepress/plugin-register-components": "^2.0.0-beta.27",
     "eslint": "^8.1.0",
     "eslint-plugin-vue": "^8.0.1",
