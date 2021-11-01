@@ -34,3 +34,4 @@ jobs:
               repo: context.repo.repo,
               body: `Dependabot-Preview score\n\n${badge}`
             })
+
