@@ -42,5 +42,11 @@ module.exports = {
         id: "G-VB8W01RFSM",
       },
     ],
+    [
+      "@jinhang/vuepress-plugin-cnzz",
+      {
+        id: "1280520518",
+      },
+    ],
   ],
 };
