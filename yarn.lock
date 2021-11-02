@@ -57,10 +57,10 @@
   resolved "https://registry.npmjs.org/@humanwhocodes/object-schema/-/object-schema-1.2.0.tgz#87de7af9c231826fdd68ac7258f77c429e0e5fcf"
   integrity sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==
 
-"@jinhang/vuepress-plugin-cnzz@^1.0.0-beta.2":
-  version "1.0.0-beta.2"
-  resolved "https://registry.npmjs.org/@jinhang/vuepress-plugin-cnzz/-/vuepress-plugin-cnzz-1.0.0-beta.2.tgz#3e59f10c35b00024c4ebdec49be62b4333843d7e"
-  integrity sha512-o5ak04MPhHEmVKKL2DUty5hU0Qf5f2EIt+rSiuLrsqqJxoXO6lYuzHjdZSVirv9WjgMammtvEvZ+razk2qDZpA==
+"@jinhang/vuepress-plugin-cnzz@^1.0.0-beta.3":
+  version "1.0.0-beta.3"
+  resolved "https://registry.npmjs.org/@jinhang/vuepress-plugin-cnzz/-/vuepress-plugin-cnzz-1.0.0-beta.3.tgz#d972b371809947e1b368391a6d6a616be3fd01d8"
+  integrity sha512-u5v5kZx0Hi3V2mBikGu4PDxZLOvzkVvJs3SH0f9Y/aO9TcKPyBTNfFxX8oEUjJMhxO0mAs5yB7kEDkO4O0pKUQ==
   dependencies:
     global "^4.4.0"
     rimraf "^3.0.2"

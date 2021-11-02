@@ -50,7 +50,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "@jinhang/vuepress-plugin-cnzz": "^1.0.0-beta.2",
+    "@jinhang/vuepress-plugin-cnzz": "^1.0.0-beta.3",
     "@vuepress/plugin-google-analytics": "^2.0.0-beta.27",
     "@vuepress/plugin-register-components": "^2.0.0-beta.27",
     "eslint": "^8.1.0",
