@@ -54,7 +54,7 @@
     "@vuepress/plugin-google-analytics": "^2.0.0-beta.27",
     "@vuepress/plugin-register-components": "^2.0.0-beta.27",
     "eslint": "^8.1.0",
-    "eslint-plugin-vue": "^8.0.1",
+    "eslint-plugin-vue": "^9.7.0",
     "husky": "^7.0.4",
     "lint-staged": "^11.2.6",
     "pinst": "^2.1.6",
